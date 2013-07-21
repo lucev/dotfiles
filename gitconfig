@@ -1,0 +1,10 @@
+[user]
+	email = lucev.ivan@gmail.com
+	name = Ivan Lučev
+[color]
+	branch = auto
+	ui = auto
+[color "status"]
+	changed = yellow
+	added = green
+	untracked = red
