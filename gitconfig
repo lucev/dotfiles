@@ -8,3 +8,5 @@
 	changed = yellow
 	added = green
 	untracked = red
+[alias]
+	st = status
