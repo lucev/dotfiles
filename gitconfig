@@ -10,3 +10,5 @@
 	untracked = red
 [alias]
 	st = status
+[core]
+	editor = sublime-text
