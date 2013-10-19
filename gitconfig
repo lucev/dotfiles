@@ -11,4 +11,4 @@
 [alias]
 	st = status
 [core]
-	editor = sublime-text
+	editor = vim
