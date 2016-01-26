@@ -12,3 +12,5 @@ set backspace=indent,eol,start
 set ignorecase
 
 color desert
+set colorcolumn=80
+hi ColorColumn ctermbg=lightgrey
