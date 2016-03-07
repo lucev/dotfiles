@@ -14,3 +14,6 @@ set ignorecase
 color desert
 set colorcolumn=80
 hi ColorColumn ctermbg=lightgrey
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
