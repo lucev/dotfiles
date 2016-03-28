@@ -17,3 +17,7 @@ hi ColorColumn ctermbg=lightgrey
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" Enable slim syntax highlight
+autocmd FileType slim setlocal foldmethod=indent
+autocmd BufNewFile,BufRead *.slim set filetype=slim
+
