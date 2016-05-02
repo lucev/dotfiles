@@ -2,6 +2,7 @@ set nocompatible
 syntax enable
 set encoding=utf-8
 set showcmd
+set autoread
 set number
 
 set nowrap
