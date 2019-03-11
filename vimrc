@@ -2,7 +2,7 @@ set nocompatible
 syntax enable
 set encoding=utf-8
 set showcmd
-set autoread
+set autoread | au FocusGained,BufEnter * checktime
 set number
 
 set nowrap
@@ -24,3 +24,9 @@ autocmd BufNewFile,BufRead *.slim set filetype=slim
 
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 set wildignore+=tmp/**,log/**
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'tmux-plugins/vim-tmux-focus-events'
+
+call plug#end()
